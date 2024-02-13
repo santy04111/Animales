@@ -5,4 +5,6 @@ public class AvesTrus extends Ave{
     public void makeSound() {
         System.out.println("<<silencio>>");
     }
+
+
 }
