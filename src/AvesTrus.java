@@ -1,9 +1,16 @@
 import java.sql.SQLOutput;
+import java.util.logging.Logger;
 
 public class AvesTrus extends Ave{
-    @Override
-    public void makeSound() {
-        System.out.println("<<silencio>>");
+
+    public static final Logger logger = Logger.getLogger(AvesTrus.class.getName());
+
+    public AvesTrus() {
+        logger.info("Instanciando Avestruz");
+
+        this.setTipoVuelo(new SinVuelo());
+        this.setTipoSonido(new SinCanto());
+
     }
 
 

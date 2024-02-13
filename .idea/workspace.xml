@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31aa4740-8bde-49a2-9ffb-185d0ffadbc3" name="Changes" comment="clase ave">
-      <change afterPath="$PROJECT_DIR$/src/AvesTrus.java" afterDir="false" />
+    <list default="true" id="31aa4740-8bde-49a2-9ffb-185d0ffadbc3" name="Changes" comment="interface vuelo">
+      <change afterPath="$PROJECT_DIR$/src/Canto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grasnido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/TipoSonido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/TipoVuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SinCanto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SinVuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VueloConAlas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvesTrus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AvesTrus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gallina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gallina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Ave" />
+        <entry key="$PROJECT_DIR$" value="Volar" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AveTruz",
+    "git-widget-placeholder": "InterfacesTipos",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -82,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707528666604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clase Canario">
+      <option name="closed" value="true" />
+      <created>1707781513687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707781513687</updated>
+    </task>
+    <task id="LOCAL-00004" summary="interface vuelo">
+      <option name="closed" value="true" />
+      <created>1707783253195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707783253195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,17 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <MESSAGE value="clase ave" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase ave" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="clase Canario" />
+    <MESSAGE value="interface vuelo" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface vuelo" />
   </component>
 </project>

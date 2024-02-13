@@ -1,12 +1,15 @@
 import Interface.Volar;
 
-public class Canario extends Ave implements Volar {
-    @Override
-    public void makeSound() {
-        System.out.println("Canta");
-    }
+import java.util.logging.Logger;
 
-    public void vuela() {
-        System.out.println("vuela con alas");
+public class Canario extends Ave {
+
+    public static final Logger logger = Logger.getLogger(Canario.class.getName());
+
+    public Canario(){
+        logger.info("Instanciando un canario");
+        this.setTipoVuelo(new SinVuelo());
+        this.setTipoSonido(new SinCanto());
+
     }
 }
